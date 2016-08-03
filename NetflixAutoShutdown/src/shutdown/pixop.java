@@ -192,14 +192,17 @@ public class pixop {
 		return minutes;
 	}
 
-	public static void eingabe(char c) throws AWTException {
+	public static void eingabe(int key) throws AWTException {
 		Robot ro = new Robot();
-		ro.keyPress(c);
+		ro.keyPress(key);
 		ro.delay(10);
-		ro.keyRelease(c);
+		ro.keyRelease(key);
 		ro.delay(1000);
 	}
+	
+	
 
+	
 	public static int tseconds() {
 		java.util.Date now = new java.util.Date();
 		java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat(
