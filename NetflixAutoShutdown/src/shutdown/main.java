@@ -11,7 +11,7 @@ import com.sun.glass.events.KeyEvent;
 public class main {
 	
 	/* 
-	 * This will is where the whole logic of the programm lies
+	 * This is where the whole logic of the programm is located.
 	 * idle-Time is measured in seconds.
 	 * 
 	 * */
