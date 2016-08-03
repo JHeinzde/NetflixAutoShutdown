@@ -9,7 +9,7 @@
  * 
  * This is a collection of functions that do screencaptures, compare them and simulate mous and keyboard inputs 
  * It uses RGB Colors. 
- * Note that this implemantation is very primitive and inefficent.
+ * Note that this implementation is very primitive and inefficent.
  * The Array mapping for the colors is the following : 
  * [0] = blue
  * [1] = green
