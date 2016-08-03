@@ -129,8 +129,8 @@ public class pixop {
 	
 
 
-	public static boolean comparer(int farben[][][], int farben2[][][], int x,
-			int y) {
+	public static boolean comparer(int farben[][][], int farben2[][][]
+			) {
 		for (int z = 0; z < farben[0].length; z++) {
 			for (int f = 0; f < farben.length; f++) {
 				if (farben[f][z][0] == farben2[f][z][0]) {
